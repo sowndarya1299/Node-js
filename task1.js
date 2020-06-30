@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
   res.send("This is my file creation details");
 });
 app.get("/date", (req, res) => {
-  fs.readdir("C:\Users\vijay\Desktop\node js", (err, files) => {
+  fs.readdir("C:\Users\windows\Desktop\Node.Js", (err, files) => {
     if (err) throw err;
     res.send(files);
   });
